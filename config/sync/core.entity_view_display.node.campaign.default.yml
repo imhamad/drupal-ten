@@ -1,0 +1,28 @@
+uuid: 18eedd59-6e1b-476f-9ff1-fa266bb7fbe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.campaign.body
+    - node.type.campaign
+  module:
+    - text
+    - user
+id: node.campaign.default
+targetEntityType: node
+bundle: campaign
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,79 @@
+# Ignore IDE files
+.idea
+.DS_Store
+
+# Ignore configuration files that may contain sensitive information
+*/settings*.php
+web/sites/*/*settings*.php
+web/sites/*/*services*.yml
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+web/sites/*/default.*
+
+# Excepting for creating settings.php
+!web/sites/*/default.settings.php
+
+# Ignore paths that may contain user-generated content
+web/sites/*/public
+web/sites/*/private
+web/sites/*/files/*
+web/sites/*/files-public
+web/sites/*/files-private
+web/sites/settings.local.php
+
+# Except folders that are necessary
+!web/sites/*/files/paragraphs_type_icon
+!web/sites/*/files/taxonomy_files
+
+# Ignore paths that may contain temporary files
+web/sites/*/translations
+web/sites/*/tmp
+web/sites/*/cache
+
+# Ignore testing related files
+web/sites/simpletest
+
+# Ignore composer packages files
+/vendor
+
+# Ignore libraries that are installed via composer
+web/libraries/chosen
+
+# Ignore drupal core (if not versioning drupal sources)
+web/core
+web/modules/README.txt
+web/profiles/README.txt
+web/sites/README.txt
+web/sites/example.sites.php
+web/sites/example.settings.local.php
+web/sites/development.services.yml
+web/themes/README.txt
+web/.csslintrc
+web/.eslintignore
+web/.eslintrc.json
+web/.htaccess
+web/autoload.php
+web/example.gitignore
+web/index.php
+web/LICENSE.txt
+web/README.txt
+web/INSTALL.txt
+web/robots.txt
+web/update.php
+web/web.config
+web/README.md
+.editorconfig
+.gitattributes
+
+# Ignore Drupal contrib files
+web/modules/contrib
+web/themes/contrib
+
+# Ignore npm contrib packages
+node_modules
+
+#Logs
+.log
+
+# Router file
+web/.ht.router.php
