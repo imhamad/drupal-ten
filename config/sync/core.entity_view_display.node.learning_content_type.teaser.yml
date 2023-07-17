@@ -1,0 +1,46 @@
+uuid: f23122a3-ceec-4be7-8aa0-dc0eb4a8c9b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.learning_content_type.field_are_you_interested_in_our_
+    - field.field.node.learning_content_type.field_comment_type
+    - field.field.node.learning_content_type.field_email_project
+    - field.field.node.learning_content_type.field_file
+    - field.field.node.learning_content_type.field_image_existing
+    - field.field.node.learning_content_type.field_link
+    - field.field.node.learning_content_type.field_list_float
+    - field.field.node.learning_content_type.field_molecular_department
+    - field.field.node.learning_content_type.field_review
+    - field.field.node.learning_content_type.field_select_your_date
+    - field.field.node.learning_content_type.field_text
+    - field.field.node.learning_content_type.field_timestamp
+    - field.field.node.learning_content_type.field_user_ref
+    - node.type.learning_content_type
+  module:
+    - user
+id: node.learning_content_type.teaser
+targetEntityType: node
+bundle: learning_content_type
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_are_you_interested_in_our_: true
+  field_comment_type: true
+  field_email_project: true
+  field_file: true
+  field_image_existing: true
+  field_link: true
+  field_list_float: true
+  field_molecular_department: true
+  field_review: true
+  field_select_your_date: true
+  field_text: true
+  field_timestamp: true
+  field_user_ref: true

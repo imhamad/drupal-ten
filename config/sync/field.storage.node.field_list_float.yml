@@ -1,0 +1,48 @@
+uuid: 7ee26b59-0bbd-413c-a27d-b7546a23193d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_list_float
+field_name: field_list_float
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: 1.0
+      label: '1'
+    -
+      value: 2.0
+      label: '2'
+    -
+      value: 3.0
+      label: '3'
+    -
+      value: 4.0
+      label: '4'
+    -
+      value: 5.0
+      label: '5'
+    -
+      value: 6.0
+      label: '6'
+    -
+      value: 7.0
+      label: '7'
+    -
+      value: 8.0
+      label: '8'
+    -
+      value: 9.0
+      label: '9'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

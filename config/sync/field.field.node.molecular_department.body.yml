@@ -1,0 +1,23 @@
+uuid: 57f47d3a-7587-45d7-b935-f1dc536a98d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.molecular_department
+  module:
+    - text
+id: node.molecular_department.body
+field_name: body
+entity_type: node
+bundle: molecular_department
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

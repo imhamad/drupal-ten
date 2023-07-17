@@ -1,0 +1,8 @@
+uuid: 36dd16e1-a2c6-4174-a5c9-95fdbc87c608
+langcode: en
+status: true
+dependencies: {  }
+id: specific_comment_types
+label: 'Specific comment types'
+target_entity_type_id: node
+description: ''

@@ -1,0 +1,24 @@
+uuid: e4477353-b866-46d6-aafb-52d7ba571d22
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: clean_url
+label: 'Our clean URL'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  26c9a59c-e585-4735-a96e-6331a113d3c4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 26c9a59c-e585-4735-a96e-6331a113d3c4
+    context_mapping:
+      node: node
+    bundles:
+      campaign: campaign
+      learning_content_type: learning_content_type
+      molecular_department: molecular_department
+selection_logic: and
+weight: -5
+relationships: {  }

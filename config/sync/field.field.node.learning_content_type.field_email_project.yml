@@ -1,0 +1,19 @@
+uuid: 655c4d4c-ffe8-48c4-bc49-d86f0bf4511e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_project
+    - node.type.learning_content_type
+id: node.learning_content_type.field_email_project
+field_name: field_email_project
+entity_type: node
+bundle: learning_content_type
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

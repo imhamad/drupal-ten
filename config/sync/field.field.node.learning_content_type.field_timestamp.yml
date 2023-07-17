@@ -1,0 +1,21 @@
+uuid: 8e74c664-d239-4bdc-a2c2-36de6039612e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_timestamp
+    - node.type.learning_content_type
+id: node.learning_content_type.field_timestamp
+field_name: field_timestamp
+entity_type: node
+bundle: learning_content_type
+label: Timestamp
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1673168400
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

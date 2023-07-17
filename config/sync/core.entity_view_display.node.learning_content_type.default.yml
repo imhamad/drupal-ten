@@ -1,0 +1,153 @@
+uuid: 495d103f-752d-48a2-a7b0-0bef4558d12c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.specific_comment_types.default
+    - field.field.node.learning_content_type.field_are_you_interested_in_our_
+    - field.field.node.learning_content_type.field_comment_type
+    - field.field.node.learning_content_type.field_email_project
+    - field.field.node.learning_content_type.field_file
+    - field.field.node.learning_content_type.field_image_existing
+    - field.field.node.learning_content_type.field_link
+    - field.field.node.learning_content_type.field_list_float
+    - field.field.node.learning_content_type.field_molecular_department
+    - field.field.node.learning_content_type.field_review
+    - field.field.node.learning_content_type.field_select_your_date
+    - field.field.node.learning_content_type.field_text
+    - field.field.node.learning_content_type.field_timestamp
+    - field.field.node.learning_content_type.field_user_ref
+    - node.type.learning_content_type
+  module:
+    - comment
+    - datetime
+    - file
+    - image
+    - link
+    - options
+    - text
+    - user
+id: node.learning_content_type.default
+targetEntityType: node
+bundle: learning_content_type
+mode: default
+content:
+  field_are_you_interested_in_our_:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_comment_type:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_email_project:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_file:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_image_existing:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_list_float:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_molecular_department:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_review:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_select_your_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  field_timestamp:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_user_ref:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

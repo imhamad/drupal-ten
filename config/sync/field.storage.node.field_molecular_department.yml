@@ -1,0 +1,19 @@
+uuid: 0b40f108-c596-4b7b-b6f7-362a60d58816
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_molecular_department
+field_name: field_molecular_department
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

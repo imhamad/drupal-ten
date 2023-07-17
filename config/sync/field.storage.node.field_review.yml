@@ -1,0 +1,36 @@
+uuid: 087a19a5-acf6-4462-a468-e9d2d5e8a6db
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_review
+field_name: field_review
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: 'One Star'
+    -
+      value: 2
+      label: 'Two Star'
+    -
+      value: 3
+      label: 'Three Star'
+    -
+      value: 4
+      label: 'Four Star'
+    -
+      value: 5
+      label: 'Five Star'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

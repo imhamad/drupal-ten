@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 59ec5281-2e59-44be-80d4-2808fa05289c
-name: 'Drupal Ten with Axel'
+name: 'Fresh Drupal Instance'
 mail: test@test.com
 slogan: ''
 page:

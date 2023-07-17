@@ -1,0 +1,21 @@
+uuid: c4c0b875-e4fc-4b08-9ac0-9c4575b35463
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_float
+    - node.type.learning_content_type
+  module:
+    - options
+id: node.learning_content_type.field_list_float
+field_name: field_list_float
+entity_type: node
+bundle: learning_content_type
+label: 'List float'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

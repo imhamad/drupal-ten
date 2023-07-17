@@ -1,0 +1,29 @@
+uuid: 04fa2ea3-1f77-4f4b-963d-06e8e1109357
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_types
+    - node.type.molecular_department
+    - taxonomy.vocabulary.services
+id: node.molecular_department.field_service_types
+field_name: field_service_types
+entity_type: node
+bundle: molecular_department
+label: 'Service Types'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      services: services
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

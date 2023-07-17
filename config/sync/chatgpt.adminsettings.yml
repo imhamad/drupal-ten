@@ -1,0 +1,5 @@
+chatgpt_endpoint: 'https://api.openai.com/v1/completions'
+chatgpt_model: text-davinci-003
+chatgpt_token: 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
+chatgpt_temperature: '0.9'
+chatgpt_max_token: '1000'

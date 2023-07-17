@@ -1,0 +1,27 @@
+uuid: a65f82c9-8df7-454e-bab0-10027a85015d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.learning_content_type
+  module:
+    - file
+id: node.learning_content_type.field_file
+field_name: field_file
+entity_type: node
+bundle: learning_content_type
+label: File
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: our-folder
+  file_extensions: txt
+  max_filesize: 3M
+  description_field: false
+field_type: file

@@ -1,0 +1,29 @@
+uuid: 9ce1e8de-2fa8-4f98-82b0-ec38d29577a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_molecular_department
+    - node.type.learning_content_type
+    - node.type.molecular_department
+id: node.learning_content_type.field_molecular_department
+field_name: field_molecular_department
+entity_type: node
+bundle: learning_content_type
+label: 'Molecular Department'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      molecular_department: molecular_department
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
